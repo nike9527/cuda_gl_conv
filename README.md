@@ -70,20 +70,6 @@
 - GLFW + GLAD
 - Nsight / Visual Profiler（可选，用于性能分析）
 
-### CMake 示例
-
-```cmake
-cmake_minimum_required(VERSION 3.20)
-project(ZeroStallTripleBuffer LANGUAGES CXX CUDA)
-
-set(CMAKE_CXX_STANDARD 17)
-find_package(OpenGL REQUIRED)
-find_package(glfw3 REQUIRED)
-
-add_executable(zero_stall main.cpp kernel.cu)
-target_link_libraries(zero_stall OpenGL::GL glfw)
-```
-
 ---
 
 ## 使用方法
