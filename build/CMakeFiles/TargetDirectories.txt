@@ -1,0 +1,3 @@
+D:/C++/cuda_gl_conv/build/CMakeFiles/cuda_gl_minimal.dir
+D:/C++/cuda_gl_conv/build/CMakeFiles/ALL_BUILD.dir
+D:/C++/cuda_gl_conv/build/CMakeFiles/ZERO_CHECK.dir

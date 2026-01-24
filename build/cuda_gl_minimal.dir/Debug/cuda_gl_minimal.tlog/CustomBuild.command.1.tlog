@@ -1,0 +1,10 @@
+^D:\C++\CUDA_GL_CONV\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/C++/cuda_gl_conv -BD:/C++/cuda_gl_conv/build --check-stamp-file D:/C++/cuda_gl_conv/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

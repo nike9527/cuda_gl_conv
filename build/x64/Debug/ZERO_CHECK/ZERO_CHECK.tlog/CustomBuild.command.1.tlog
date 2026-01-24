@@ -1,0 +1,10 @@
+^D:\C++\CUDA_GL_CONV\BUILD\CMAKEFILES\DA1F9B9742CE6382AACAE85EFA2584B8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/C++/cuda_gl_conv -BD:/C++/cuda_gl_conv/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/C++/cuda_gl_conv/build/cuda_gl_minimal.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
