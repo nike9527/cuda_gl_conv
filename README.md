@@ -48,18 +48,6 @@
 
 ---
 
-## 文件结构
-
-```
-.
-├─ main.cpp             # 主程序，初始化 OpenGL + CUDA + Triple Buffer
-├─ shaders.glsl         # 全屏四边形顶点/片段着色器
-├─ kernel.cu            # CUDA 核函数实现
-├─ README.md            # 项目说明文档
-```
-
----
-
 ## 编译与运行
 
 ### 依赖
